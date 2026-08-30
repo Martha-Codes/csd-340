@@ -1,0 +1,53 @@
+/*
+    Martha Guzman
+    August 30, 2026
+    Assignment 4.2 - Build a Web Page Exercise, Part 4
+*/
+
+h1 {
+    text-align: center;
+    color: rgba(75, 0, 130, 1);
+}
+h2 {
+    text-align: center;
+}
+#image-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 10%;
+}
+
+h3 {
+    text-align: center;
+    color: rgba(128, 0, 128, 1);
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 0.75em;
+    color: rgba(100, 50, 120, 1);
+}
+
+img {
+    width: 250px;
+    height: 375px;
+    object-fit: cover;
+}
+
+.bottom {
+    width: 100%;
+    margin-top: 10%;
+}
+
+.bottom a {
+    float: right;
+    text-decoration: none;
+}
+
+.bottom a:hover {
+    text-decoration: underline;
+}
